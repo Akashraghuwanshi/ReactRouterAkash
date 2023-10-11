@@ -17,9 +17,8 @@ body{
     min-height: 100vh;
     font-family: 'open Sans' ,sans-serif;
     display:flex;
-    justify-content: center;
-    align-items: center;
     background-color:#efefef;
+    
 }
 
 #root{
@@ -128,6 +127,7 @@ body{
     overflow-y:auto;
     background-color:#fff;
 }
+
 .post{
     margin-top: 1rem;
     padding-bottom:1rem;
@@ -154,7 +154,9 @@ body{
     margin-top:0.25rem;
 }
 .postBody{
-    margin:1rem 0;
+    margin:1rem 0rem;
+    word-wrap:break-word;
+    max-width:90vw;
 }
 
 .newPostForm{
