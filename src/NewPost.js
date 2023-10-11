@@ -13,6 +13,7 @@ const NewPost = ({
      <input
        id="postTitle"
        type="text"
+       required
        value={postTitle}
        onChange={(e)=>setPostTitle(e.target.value)}
      />
